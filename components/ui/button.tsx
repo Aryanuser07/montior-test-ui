@@ -31,7 +31,7 @@ export function Button({
 
   const variantStyles = {
     primary:
-      "bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 text-white shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:brightness-110 active:scale-[0.98]",
+      "bg-gradient-to-r from-orange-500 via-orange-600 to-indigo-600 text-white shadow-lg shadow-orange-500/25 hover:shadow-orange-500/40 hover:brightness-110 active:scale-[0.98]",
     secondary:
       "bg-white/10 text-white border border-white/15 backdrop-blur-md hover:bg-white/15 hover:border-white/25 active:scale-[0.98]",
     outline:

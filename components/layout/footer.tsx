@@ -13,11 +13,11 @@ export function Footer() {
         {/* Brand info */}
         <div className="md:col-span-2 flex flex-col gap-4">
           <Link href="/" className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-blue-600 via-indigo-600 to-violet-600 flex items-center justify-center shadow-lg shadow-indigo-500/25">
-              <Activity className="w-4 h-4 text-white" />
+            <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-orange-500 via-orange-600 to-indigo-600 flex items-center justify-center shadow-lg shadow-orange-500/25">
+              <Activity className="w-4 h-4 text-white animate-pulse" />
             </div>
-            <span className="text-lg font-bold tracking-tight text-slate-900 dark:text-white">
-              Moniter<span className="text-blue-500 dark:text-blue-400">MySite</span>
+            <span className="text-lg font-extrabold tracking-tight text-slate-900 dark:text-white">
+              Monitor<span className="text-orange-400 font-bold">MySite</span>
             </span>
           </Link>
           <p className="text-slate-600 dark:text-slate-400 text-xs sm:text-sm max-w-sm leading-relaxed">

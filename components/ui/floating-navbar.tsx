@@ -82,11 +82,11 @@ export function FloatingNav({ navItems, className }: FloatingNavProps) {
       >
         {/* Brand Icon */}
         <Link href="/" className="flex items-center gap-2 group shrink-0">
-          <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center shadow-md shadow-indigo-500/20 group-hover:scale-105 transition-transform">
+          <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-orange-500 via-orange-600 to-indigo-600 flex items-center justify-center shadow-md shadow-orange-500/20 group-hover:scale-105 transition-transform">
             <Activity className="w-4 h-4 text-white animate-pulse" />
           </div>
-          <span className="hidden sm:inline text-sm font-bold tracking-tight dark:text-white text-slate-900">
-            Moniter<span className="text-blue-500">MySite</span>
+          <span className="hidden sm:inline text-sm font-extrabold tracking-tight dark:text-white text-slate-900">
+            Monitor<span className="text-orange-400 font-bold">MySite</span>
           </span>
         </Link>
 
@@ -116,7 +116,7 @@ export function FloatingNav({ navItems, className }: FloatingNavProps) {
             onClick={() => {
               if (lenis) lenis.scrollTo("#hero");
             }}
-            className="border text-xs font-semibold relative border-indigo-500/30 text-white bg-gradient-to-r from-blue-600 to-indigo-600 px-4 py-1.5 rounded-full flex items-center gap-1.5 shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/40 hover:scale-105 transition-all"
+            className="border text-xs font-semibold relative border-orange-500/30 text-white bg-gradient-to-r from-orange-500 via-orange-600 to-indigo-600 hover:from-orange-400 hover:to-indigo-500 px-4 py-1.5 rounded-full flex items-center gap-1.5 shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 hover:scale-105 transition-all cursor-pointer"
           >
             <span>Start free</span>
             <ArrowRight className="w-3.5 h-3.5" />
