@@ -1,0 +1,39 @@
+{
+  "sheetsById": {
+    "HeroSequence": {
+      "staticOverrides": {
+        "byObject": {
+          "Badge": { "opacity": 1, "y": 0 },
+          "Title": { "opacity": 1, "y": 0 },
+          "Subcopy": { "opacity": 1, "y": 0 },
+          "Form": { "opacity": 1, "y": 0 },
+          "TrustRow": { "opacity": 1, "y": 0 },
+          "Stats": { "opacity": 1, "y": 0 }
+        }
+      },
+      "sequence": {
+        "subscribers": [],
+        "length": 4,
+        "type": "PositionalSequence",
+        "tracksByObject": {}
+      }
+    },
+    "GlobeSequence": {
+      "staticOverrides": {
+        "byObject": {
+          "Globe": { "phi": 0, "theta": 0.3 },
+          "IncidentCard": { "opacity": 1, "scale": 1 },
+          "SlackCard": { "opacity": 1, "scale": 1 }
+        }
+      },
+      "sequence": {
+        "subscribers": [],
+        "length": 5,
+        "type": "PositionalSequence",
+        "tracksByObject": {}
+      }
+    }
+  },
+  "definitionVersion": "0.4.0",
+  "revisionHistory": []
+}
